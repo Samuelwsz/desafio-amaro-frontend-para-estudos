@@ -1,17 +1,7 @@
-import { products } from "@/utils/data"
+import { ProductsProps } from "@/app/interface"
 import { ShoppingCart } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-
-interface ProductsProps {
-  id: string
-  name: string
-  discount_percentage: string
-  actual_price: string
-  regular_price: string
-  on_sale: boolean
-  image: string
-}
 
 export function Card({
   id,
@@ -27,7 +17,7 @@ export function Card({
       <div className="border-2 border-slate-600 p-3 bg-slate-700">
         <div className="flex justify-between">
           <h1 className="mb-1 text-slate-100">{name}</h1>
-          <ShoppingCart className="w-5 h-5" />
+          <ShoppingCart className="w-5 h-5 cursor-pointer" />
         </div>
         <div className="flex justify-between">
           <p>{discount_percentage ? actual_price : regular_price}</p>
