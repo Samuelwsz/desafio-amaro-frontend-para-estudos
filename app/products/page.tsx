@@ -14,6 +14,7 @@ export default function Products() {
             on_sale={product.on_sale}
             regular_price={product.regular_price}
             id={product.id}
+            image={product.image}
           />
         ))}
       </div>

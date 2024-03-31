@@ -1,4 +1,6 @@
+import { products } from "@/utils/data"
 import { ShoppingCart } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 interface ProductsProps {
@@ -8,6 +10,7 @@ interface ProductsProps {
   actual_price: string
   regular_price: string
   on_sale: boolean
+  image: string
 }
 
 export function Card({
@@ -17,6 +20,7 @@ export function Card({
   actual_price,
   regular_price,
   on_sale,
+  image,
 }: ProductsProps) {
   return (
     <div className="mx-3 my-3">
@@ -28,6 +32,9 @@ export function Card({
         <div className="flex justify-between">
           <p>{discount_percentage ? actual_price : regular_price}</p>
           <p>{discount_percentage ? `Desconto: ${discount_percentage}` : ""}</p>
+        </div>
+        <div className="mt-5">
+          <Image alt="card image" src={image} width={200} height={200} />
         </div>
         <div className="flex justify-between items-center mt-5">
           <div>

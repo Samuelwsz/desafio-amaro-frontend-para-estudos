@@ -54,7 +54,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 33,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002570_002_catalog_1.jpg?1459948578",
+      "https://images.pexels.com/photos/9942609/pexels-photo-9942609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -96,7 +96,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 43,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002575_027_catalog_1.jpg?1459537946",
+      "https://images.pexels.com/photos/20618882/pexels-photo-20618882/free-photo-of-mulher-de-pe-retrato-segurando.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -138,7 +138,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 49,97",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002581_614_catalog_1.jpg?1459536611",
+      "https://images.pexels.com/photos/18900144/pexels-photo-18900144/free-photo-of-moda-tendencia-mulher-caminhando.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -179,7 +179,8 @@ export const products = [
     actual_price: "R$ 119,90",
     discount_percentage: "12%",
     installments: "3x R$ 39,97",
-    image: "",
+    image:
+      "https://images.pexels.com/photos/20710607/pexels-photo-20710607/free-photo-of-transe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -221,7 +222,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 63,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002584_035_catalog_1.jpg?1459947139",
+      "https://images.pexels.com/photos/20620149/pexels-photo-20620149/free-photo-of-mulher-modelo-de-pe-retrato.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -263,7 +264,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 53,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002634_613_catalog_1.jpg?1459548109",
+      "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -305,7 +306,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 33,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002570_029_catalog_1.jpg?1459948578",
+      "https://images.pexels.com/photos/2471129/pexels-photo-2471129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -347,7 +348,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 49,97",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002612_612_catalog_1.jpg?1459531023",
+      "https://images.pexels.com/photos/20788683/pexels-photo-20788683/free-photo-of-moda-tendencia-pessoas-mulher.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -389,7 +390,7 @@ export const products = [
     discount_percentage: "25%",
     installments: "3x R$ 53,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002945_027_catalog_1.jpg?1459540966",
+      "https://images.pexels.com/photos/20630232/pexels-photo-20630232/free-photo-of-e.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -411,7 +412,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 73,30",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002606_615_catalog_1.jpg?1459515279",
+      "https://images.pexels.com/photos/20794338/pexels-photo-20794338/free-photo-of-ester2.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -453,7 +454,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 49,97",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002581_611_catalog_1.jpg?1459536611",
+      "https://images.pexels.com/photos/20117719/pexels-photo-20117719/free-photo-of-mulher-sentado-modelo-fotografia-de-moda.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -495,7 +496,7 @@ export const products = [
     discount_percentage: "50%",
     installments: "2x R$ 34,95",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001609_002_catalog_1.jpg?",
+      "https://images.pexels.com/photos/20801132/pexels-photo-20801132/free-photo-of-moda-tendencia-amor-mulher.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -537,7 +538,7 @@ export const products = [
     discount_percentage: "39%",
     installments: "2x R$ 42,45",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001786_594_catalog_1.jpg?1449159646",
+      "https://images.pexels.com/photos/20775247/pexels-photo-20775247/free-photo-of-cidade-meio-urbano-moda-tendencia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -579,7 +580,7 @@ export const products = [
     discount_percentage: "50%",
     installments: "2x R$ 34,95",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001695_063_catalog_1.jpg?",
+      "https://images.pexels.com/photos/20636369/pexels-photo-20636369/free-photo-of-moda-tendencia-pessoas-mulher.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -621,7 +622,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 49,97",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002600_293_catalog_1.jpg?1460416037",
+      "https://images.pexels.com/photos/20487217/pexels-photo-20487217/free-photo-of-moda-tendencia-mulher-fofo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -663,7 +664,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 49,97",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002829_006_catalog_1.jpg?1459550820",
+      "https://images.pexels.com/photos/20450399/pexels-photo-20450399/free-photo-of-mulher-de-pe-olhando-vendo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -705,7 +706,7 @@ export const products = [
     discount_percentage: "",
     installments: "3x R$ 79,97",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20002648_029_catalog_1.jpg?1459552552",
+      "https://images.pexels.com/photos/20708661/pexels-photo-20708661/free-photo-of-flor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -747,7 +748,7 @@ export const products = [
     discount_percentage: "54%",
     installments: "1x R$ 59,90",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001684_585_catalog_1.jpg?",
+      "https://images.pexels.com/photos/20761524/pexels-photo-20761524/free-photo-of-mulher-modelo-de-pe-retrato.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: false,
@@ -789,7 +790,7 @@ export const products = [
     discount_percentage: "55%",
     installments: "1x R$ 49,90",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001882_008_catalog_1.jpg?",
+      "https://images.pexels.com/photos/4711792/pexels-photo-4711792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -811,7 +812,7 @@ export const products = [
     discount_percentage: "55%",
     installments: "1x R$ 49,90",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001883_019_catalog_1.jpg?",
+      "https://images.pexels.com/photos/9066310/pexels-photo-9066310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
@@ -833,7 +834,7 @@ export const products = [
     discount_percentage: "",
     installments: "1x R$ 29,90",
     image:
-      "https://d3l7rqep7l31az.cloudfront.net/images/products/20001913_009_catalog_1.jpg?",
+      "https://images.pexels.com/photos/17833396/pexels-photo-17833396/free-photo-of-moda-tendencia-mulher-vestido.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     sizes: [
       {
         available: true,
