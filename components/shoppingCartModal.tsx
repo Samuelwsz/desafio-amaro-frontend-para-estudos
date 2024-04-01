@@ -11,8 +11,23 @@ export default function ShoppingCartModal() {
     handleCartClick,
     cartDetails,
     removeItem,
-    totalPrice,
   } = useShoppingCart()
+
+  const calculateTotalPrice = () => {
+    let total = 0
+
+    // Verifique se cartDetails está definido antes de iterar sobre ele
+    if (cartDetails) {
+      Object.values(cartDetails).forEach((item) => {
+        // Converta o preço atual para número e multiplique pela quantidade
+        total += parseFloat(item.actual_price) * item.quantity
+      })
+    }
+
+    return total.toFixed(2) // Arredonde o total para 2 casas decimais
+  }
+
+  const totalPrice = calculateTotalPrice()
 
   return (
     <Sheet open={shouldDisplayCart} onOpenChange={() => handleCartClick()}>
@@ -44,19 +59,19 @@ export default function ShoppingCartModal() {
                         <div>
                           <div className="flex flex-col justify-between text-base font-medium text-gray-900">
                             <h3>{entry.name}</h3>
-                            <p className="">{entry.actual_price}</p>
+                            <p>R$: {entry.actual_price}</p>
                           </div>
                         </div>
 
                         <div className="flex flex-1 items-end justify-between text-sm">
-                          <p className="text-gray-500">QTY: {entry.quantity}</p>
+                          <p className="text-gray-500">QTD: {entry.quantity}</p>
                           <div className="flex">
                             <button
                               type="button"
                               onClick={() => removeItem(entry.id)}
                               className="font-medium text-primary hover:text-primary/80"
                             >
-                              Remove
+                              Remover
                             </button>
                           </div>
                         </div>
@@ -71,7 +86,7 @@ export default function ShoppingCartModal() {
           <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
             <div className="flex justify-between text-base font-medium text-gray-900">
               <p>Subtotal:</p>
-              <p>${totalPrice}</p>
+              <p>R$ {totalPrice}</p>
             </div>
           </div>
         </div>

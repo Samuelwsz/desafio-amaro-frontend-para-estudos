@@ -28,11 +28,17 @@ export default function ProductId({
           />
           <div className="flex flex-col">
             <h1 className="font-medium text-xl">{product.name}</h1>
-            <p className="mt-2">
+            <p className="mt-2 flex gap-2">
               Preço:{" "}
-              {product.discount_percentage
-                ? product.actual_price
-                : product.regular_price}
+              {product.discount_percentage ? (
+                <>
+                  <p>R$ {product.actual_price}</p>
+                </>
+              ) : (
+                <>
+                  <p>R$ {product.regular_price}</p>
+                </>
+              )}
             </p>
 
             <p className="my-2 font-medium text-lg">Tamanhos disponíveis:</p>
