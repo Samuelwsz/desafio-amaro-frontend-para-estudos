@@ -15,12 +15,12 @@ export default function AddToBag({
   const { addItem, handleCartClick } = useShoppingCart()
 
   const product = {
-    id: id,
     name: name,
     discount_percentage: discount_percentage,
     actual_price: actual_price,
     image: image,
     on_sale: on_sale,
+    id: id,
   }
   return (
     <>

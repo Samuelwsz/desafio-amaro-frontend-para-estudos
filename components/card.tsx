@@ -17,7 +17,7 @@ export function Card({
       <div className="border-2 border-slate-600 p-3 bg-slate-700">
         <h1 className="mb-1 text-slate-100">{name}</h1>
         <div className="flex justify-between">
-          <p>
+          <div>
             {discount_percentage ? (
               <>
                 <p>R$ {actual_price}</p>
@@ -27,7 +27,7 @@ export function Card({
                 <p>R$ {regular_price}</p>
               </>
             )}
-          </p>
+          </div>
           <p>{discount_percentage ? `Desconto: ${discount_percentage}` : ""}</p>
         </div>
         <div className="mt-5">
