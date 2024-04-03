@@ -20,7 +20,7 @@ export default function ShoppingCartModal() {
     if (cartDetails) {
       Object.values(cartDetails).forEach((item) => {
         // Converta o preço atual para número e multiplique pela quantidade
-        total += parseFloat(item.actual_price) * item.quantity
+        total += item.actual_price * item.quantity
       })
     }
 

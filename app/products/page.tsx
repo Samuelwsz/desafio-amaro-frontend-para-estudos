@@ -25,6 +25,7 @@ export default function Products() {
                 regular_price={product.regular_price}
                 id={product.id}
                 image={product.image}
+                data-testid="product-card"
               />
             ))
           : // Se houver resultados da pesquisa, mostrar os resultados

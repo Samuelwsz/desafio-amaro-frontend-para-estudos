@@ -13,7 +13,7 @@ export function NavBar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href={"/"} className="hover:text-slate-400">
-            <Home />
+            <Home data-testid="icon-home" />
           </Link>
           <div className="flex gap-10">
             <Link
@@ -24,9 +24,10 @@ export function NavBar() {
             </Link>
             <button
               onClick={() => handleCartClick()}
+              
               className="hover:underline hover:text-slate-400 flex flex-col items-center"
             >
-              <ShoppingBag />
+              <ShoppingBag  />
               <span className="hidden text-xs font-semibold text-gray-500 sm:block">
                 Carrinho
               </span>

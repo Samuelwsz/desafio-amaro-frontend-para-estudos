@@ -13,3 +13,5 @@ bun dev
 ```
 
 https://github.com/amaroteam/front-end-challenge/blob/master/challenge-description.md
+
+npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom

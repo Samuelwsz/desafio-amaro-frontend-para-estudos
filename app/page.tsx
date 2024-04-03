@@ -1,5 +1,4 @@
 import { RamdomProducts } from "@/components/ramdomProducts"
-import Link from "next/link"
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
         ex, consectetur ab earum explicabo omnis ducimus porro doloribus quia
         error suscipit.
       </p>
-      <div className="">
+      <div className="" data-testid="random-products">
         <RamdomProducts />
       </div>
     </main>
