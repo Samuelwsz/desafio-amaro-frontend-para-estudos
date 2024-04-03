@@ -3,6 +3,7 @@
 import { useShoppingCart } from "use-shopping-cart"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "./ui/sheet"
 import Image from "next/image"
+import { Button } from "./ui/button"
 
 export default function ShoppingCartModal() {
   const {
@@ -88,6 +89,7 @@ export default function ShoppingCartModal() {
               <p>Total:</p>
               <p>R$ {totalPrice}</p>
             </div>
+            <Button className="w-full bg-zinc-800 mt-3">Finalizar compra</Button>
           </div>
         </div>
       </SheetContent>

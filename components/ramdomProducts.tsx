@@ -14,7 +14,7 @@ export function RamdomProducts() {
         {randomProducts.map((product) => (
           <div key={product.id} className="border border-slate-600 p-3">
             <h2 className="text-sm">{product.name}</h2>
-            <p className="mb-5">{product.actual_price}</p>
+            <p className="mb-5">R$: {product.actual_price}</p>
             <div className="my-3">
               <Image
                 alt="product image"
