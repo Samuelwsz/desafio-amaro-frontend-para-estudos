@@ -1,6 +1,6 @@
-## Getting Started
+### [Link do desafio](https://github.com/amaroteam/front-end-challenge/blob/master/challenge-description.md)
 
-First, run the development server:
+## Inicie o servidor de desenvolvimento
 
 ```bash
 npm run dev
@@ -11,7 +11,19 @@ pnpm dev
 # or
 bun dev
 ```
+## Dependências
 
-https://github.com/amaroteam/front-end-challenge/blob/master/challenge-description.md
+### nextjs
+### react
+### typescript
+### tailwindcss
+### jest
 
+
+<br/>
+
+## Instalar o jest
+
+```
 npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+```
